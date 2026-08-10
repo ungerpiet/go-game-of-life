@@ -1,0 +1,11 @@
+# Exekutierbare Dateien
+*.exe
+*.exe.manifest
+*.dll
+*.so
+*.dylib
+game-of-life
+
+# IDEs
+.idea/
+.vscode/
