@@ -39,7 +39,7 @@ func newGame() *Game {
 		backgroundColor: color.RGBA{24, 24, 30, 255},
 		grid:            grid,
 		paused:          true,
-		pauseButton:     button{5, 5, 50, 20, "Pause", color.RGBA{40, 44, 52, 255}},
+		pauseButton:     button{5, 5, 50, 20, "Play", color.RGBA{40, 44, 52, 255}},
 		resetButton:     button{60, 5, 50, 20, "Reset", color.RGBA{40, 44, 52, 255}},
 		randomButton:    button{115, 5, 50, 20, "Random", color.RGBA{40, 44, 52, 255}},
 	}
