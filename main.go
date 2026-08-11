@@ -7,8 +7,11 @@ import (
 )
 
 func main() {
-	ebiten.SetWindowSize(640, 480)
-	//ebiten.SetWindowTitle("Hello, World!")
+	ebiten.SetWindowSize(960, 720)
+	ebiten.SetWindowTitle("Conway's Game of Life")
+
+	ebiten.SetWindowResizingMode(ebiten.WindowResizingModeEnabled)
+
 	if err := ebiten.RunGame(newGame()); err != nil {
 		log.Fatal(err)
 	}
